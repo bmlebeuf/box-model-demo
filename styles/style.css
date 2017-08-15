@@ -11,6 +11,6 @@ nav a {
 a {
   text-decoration: none;
 }
-/* more recent takes presedence */
+/* more recent -bottom of style sheet- takes presedence */
 p { color: magenta; }
-p { color: orange; }
+p { color: green; }
