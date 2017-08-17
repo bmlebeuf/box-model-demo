@@ -1,16 +1,45 @@
+* { box-sizing: border-box;}
+article p {
+  padding: 3rem; 
+  background-color: aqua; 
+  border: 1rem solid black; 
+  margin: 1rem; 
+  width: 75%;
+}
+h2 {
+  border-bottom: 2px solid grey;
+  padding-bottom: 1rem;
+  width: 15em;
+}
 header img {
-  width: 33%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: aqua;
+  width: 25%;
+  float: left; 
 }
-/* more specific takes precedence */
-nav a {
-  text-decoration: line-through;
+header h1 {
+  max-width: 75%; 
+  float: left; 
 }
-a {
-  text-decoration: none;
+nav {
+  clear: both; 
 }
-/* more recent -bottom of style sheet- takes presedence */
-p { color: magenta; }
-p { color: green; }
+nav li {
+  float: left; 
+  list-style-type: none;
+  padding: 1rem;
+}
+* {
+  box-sizing: border-box; 
+}
+article {
+  clear: both;
+  float: left;
+  width: 78%;
+  padding: 1rem;
+}
+aside {
+  float: right;
+  width: 20%
+}
+footer {
+  clear: both;
+}
